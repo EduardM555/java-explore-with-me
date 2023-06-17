@@ -1,0 +1,27 @@
+package ru.practicum.stats.dto;
+
+import lombok.*;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class HitDto {
+    private Long id;
+
+    @NotBlank
+    private String app;
+
+    @NotNull
+    @NotBlank
+    private String ip;
+
+    @NotBlank
+    private String uri;
+
+    private String timestamp;
+}
