@@ -9,13 +9,9 @@ import ru.practicum.stats.dto.ViewStatsDto;
 
 import java.util.List;
 
-//import static org.springframework.http.HttpHeaders.*;
 import static org.springframework.http.HttpHeaders.CONTENT_TYPE;
-//import static org.springframework.http.HttpStatus.*;
 import static org.springframework.http.HttpStatus.CREATED;
-//import static org.springframework.http.MediaType.*;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
-//import static org.springframework.http.ResponseEntity.*;
 import static org.springframework.http.ResponseEntity.status;
 
 @Service
